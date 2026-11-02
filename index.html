@@ -1,0 +1,1129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roots International Preschool | Playful, Childlike & Whimsical</title>
+    <meta name="description" content="Roots International Pre-School & Day Care — a warm, whimsical, Montessori-inspired world nurturing creativity, curiosity, and joyful learning in children ages 2–6.">
+
+    <!-- Google Fonts: Fredoka (Playful Rounded Headings) & Inter (Clean, Legible Body & Nav) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <!-- ═══════════════════════════════════════════
+         MOBILE NAV PANEL
+         ═══════════════════════════════════════════ -->
+    <nav class="mobile-nav" id="mobileNav" role="dialog" aria-label="Mobile navigation">
+        <div class="mobile-nav-header">
+            <img src="public/assets/logo.png" alt="Roots International" class="mobile-nav-logo">
+            <button class="mobile-close-btn" onclick="closeMobileNav()" aria-label="Close navigation">
+                <i class="ph-bold ph-x"></i>
+            </button>
+        </div>
+        <div class="mobile-nav-links">
+            <a href="#home"         onclick="closeMobileNav()"><span>🏠</span> Home</a>
+            <a href="#about"        onclick="closeMobileNav()"><span>🌱</span> About Us</a>
+            <a href="#services"     onclick="closeMobileNav()"><span>✨</span> Why Choose Us</a>
+            <a href="#programs"     onclick="closeMobileNav()"><span>🎨</span> Programs</a>
+            <a href="#staff"        onclick="closeMobileNav()"><span>👩‍🏫</span> Our Team</a>
+            <a href="#testimonials" onclick="closeMobileNav()"><span>💬</span> Stories</a>
+        </div>
+        <a href="#enrol" class="btn btn-primary mobile-cta" onclick="closeMobileNav()">
+            <span>✨</span> Come Say Hello!
+        </a>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════
+         HEADER
+         ═══════════════════════════════════════════ -->
+    <header class="site-header" id="header">
+        <div class="container nav-inner">
+
+            <a href="#home" class="logo" aria-label="Roots International — home">
+                <img src="public/assets/logo.png" alt="Roots International Preschool">
+            </a>
+
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Why Us</a>
+                <a href="#about">About Us</a>
+                <a href="#programs">Programs</a>
+                <a href="#staff">Our Team</a>
+                <a href="#testimonials">Stories</a>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="#enrol" class="btn btn-primary">
+                    <span class="btn-sparkle">✨</span> Book a Visit
+                </a>
+            </div>
+
+            <button class="burger" id="burger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileNav">
+                <span></span><span></span><span></span>
+            </button>
+
+        </div>
+    </header>
+
+    <!-- ═══════════════════════════════════════════
+         HERO — Playful, Storybook & Authentic Photography
+         ═══════════════════════════════════════════ -->
+    <section class="hero" id="home">
+
+        <!-- Subtle background doodles -->
+        <div class="hero-doodles" aria-hidden="true">
+            <svg class="doodle doodle-cloud-1" viewBox="0 0 120 60" fill="none">
+                <path d="M20 45 C10 45 5 35 15 25 C12 12 28 5 42 12 C50 2 70 2 78 12 C92 5 108 15 105 30 C115 35 112 45 100 45 Z" fill="#b9d9ec" opacity="0.35"/>
+            </svg>
+            <svg class="doodle doodle-sun" viewBox="0 0 100 100" fill="none">
+                <circle cx="50" cy="50" r="22" fill="#ffd76a"/>
+                <path d="M50 14 V4 M50 96 V86 M14 50 H4 M96 50 H86 M24 24 L17 17 M83 83 L76 76 M24 76 L17 83 M83 17 L76 24" stroke="#ffd76a" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+            <svg class="doodle doodle-star-1" viewBox="0 0 32 32" fill="none">
+                <path d="M16 2 L19 12 L29 12 L21 18 L24 28 L16 22 L8 28 L11 18 L3 12 L13 12 Z" fill="#ffd76a"/>
+            </svg>
+            <svg class="doodle doodle-star-2" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2 L14 8 L20 10 L15 14 L16 20 L12 16 L8 20 L9 14 L4 10 L10 8 Z" fill="#f28b76" opacity="0.8"/>
+            </svg>
+        </div>
+
+        <div class="container hero-grid">
+
+            <!-- Left: Playful Storybook Headline & Copy -->
+            <div class="hero-text-col reveal">
+                <div class="hero-eyebrow">
+                    <span class="eyebrow-pill">
+                        <span class="eyebrow-icon">🌱</span> Montessori · Play · Curiosity
+                    </span>
+                </div>
+
+                <h1>
+                    Little Hands. <br>
+                    <span class="hl-coral">Big Dreams.</span> <br>
+                    <span class="hl-teal underline-doodle">
+                        Endless Discoveries!
+                        <svg class="svg-underline" viewBox="0 0 340 18" fill="none" preserveAspectRatio="none">
+                            <path d="M4 12 C 90 3, 210 16, 336 8" stroke="#ffd76a" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                    </span>
+                </h1>
+
+                <p class="hero-desc">
+                    A happy little world where children learn through play, explore with curiosity, and grow with confidence.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#enrol" class="btn btn-primary btn-bounce">
+                        <span>💛</span> Come Say Hello!
+                    </a>
+                    <a href="#programs" class="btn btn-outline">
+                        Explore Our Programs <i class="ph-bold ph-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Playful storybook stickers -->
+                <div class="hero-trust" aria-label="Preschool highlights">
+                    <div class="hero-trust-sticker sticker-yellow">
+                        <span class="sticker-num">12+</span>
+                        <span class="sticker-label">Years of Smiles</span>
+                    </div>
+                    <div class="hero-trust-sticker sticker-coral">
+                        <span class="sticker-num">500+</span>
+                        <span class="sticker-label">Happy Learners</span>
+                    </div>
+                    <div class="hero-trust-sticker sticker-sage">
+                        <span class="sticker-num">45</span>
+                        <span class="sticker-label">Loving Guides</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Authentic Photography framed in playful organic shapes -->
+            <div class="hero-visual-col reveal">
+                <div class="hero-art-frame">
+
+                    <!-- Background organic blobs -->
+                    <div class="frame-blob blob-yellow" aria-hidden="true"></div>
+                    <div class="frame-blob blob-blue" aria-hidden="true"></div>
+
+                    <!-- Main real photograph -->
+                    <div class="frame-photo-wrap">
+                        <img src="public/assets/assets1.jpg" alt="Child exploring wooden puzzle blocks with curiosity and joy" class="hero-main-photo">
+                    </div>
+
+                    <!-- Floating storybook badge 1 -->
+                    <div class="floating-badge badge-top">
+                        <span class="badge-emoji">🎨</span>
+                        <div>
+                            <strong>100% Play-Based</strong>
+                            <small>Montessori Guided</small>
+                        </div>
+                    </div>
+
+                    <!-- Floating storybook badge 2 -->
+                    <div class="floating-badge badge-bottom">
+                        <span class="badge-emoji">🌈</span>
+                        <div>
+                            <strong>Warm Sanctuary</strong>
+                            <small>Ages 2 to 6 Years</small>
+                        </div>
+                    </div>
+
+                    <!-- Doodle tape / pin -->
+                    <div class="doodle-pin" aria-hidden="true"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Wave divider into next section -->
+        <div class="section-wave-divider wave-cream-to-white" aria-hidden="true">
+            <svg viewBox="0 0 1440 80" fill="none" preserveAspectRatio="none">
+                <path d="M0,32 C240,64 480,10 720,42 C960,74 1200,20 1440,48 L1440,80 L0,80 Z" fill="#ffffff"/>
+            </svg>
+        </div>
+
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         WHY CHOOSE US / SERVICES
+         ═══════════════════════════════════════════ -->
+    <section class="services" id="services" aria-labelledby="services-heading">
+        <div class="container">
+            <div class="services-header text-center reveal">
+                <span class="section-eyebrow">
+                    <span class="eyebrow-pill"><span>✨</span> Why Choose Us</span>
+                </span>
+                <h2 id="services-heading" class="section-title">
+                    Growing Happy Minds, <br>
+                    <span class="hl-coral">One Little Adventure</span> at a Time!
+                </h2>
+                <p class="section-desc">
+                    Every day is an exciting journey of discovery, gentle care, sensory play, and heartwarming friendships.
+                </p>
+            </div>
+
+            <!-- Varied playful adventure cards -->
+            <div class="services-grid reveal-stagger">
+
+                <!-- Adventure 1: Sage green / Little Explorers -->
+                <div class="adventure-card card-sage reveal">
+                    <div class="card-doodle-sparkle">✦</div>
+                    <div class="card-icon-bubble bubble-sage">
+                        <i class="ph-bold ph-compass"></i>
+                    </div>
+                    <span class="card-tag tag-sage">Curiosity & Nature</span>
+                    <h3>Little Explorers</h3>
+                    <p>Learning through hands-on discovery, sensory gardens, and outdoor playtime where curiosity leads the way.</p>
+                    <div class="card-footer-pill">
+                        <span>🌱 Outdoor Play</span>
+                        <span>🔍 Science Fun</span>
+                    </div>
+                </div>
+
+                <!-- Adventure 2: Soft coral / Happy Hearts -->
+                <div class="adventure-card card-coral reveal">
+                    <div class="card-doodle-sparkle">★</div>
+                    <div class="card-icon-bubble bubble-coral">
+                        <i class="ph-bold ph-heart"></i>
+                    </div>
+                    <span class="card-tag tag-coral">Care & Belonging</span>
+                    <h3>Happy Hearts</h3>
+                    <p>Nurturing emotional safety, comforting warmth, and patient guidance so every little child feels truly cherished.</p>
+                    <div class="card-footer-pill">
+                        <span>💛 Safe & Warm</span>
+                        <span>🤗 Gentle Care</span>
+                    </div>
+                </div>
+
+                <!-- Adventure 3: Butter yellow / Creative Minds -->
+                <div class="adventure-card card-yellow reveal">
+                    <div class="card-doodle-sparkle">✦</div>
+                    <div class="card-icon-bubble bubble-yellow">
+                        <i class="ph-bold ph-palette"></i>
+                    </div>
+                    <span class="card-tag tag-yellow">Art & Imagination</span>
+                    <h3>Creative Minds</h3>
+                    <p>Splashes of paint, vibrant rhythm bands, puppetry, and boundless craft making where imagination runs free.</p>
+                    <div class="card-footer-pill">
+                        <span>🎨 Finger Paint</span>
+                        <span>🎵 Musical Beats</span>
+                    </div>
+                </div>
+
+                <!-- Adventure 4: Powder blue / Growing Together -->
+                <div class="adventure-card card-blue reveal">
+                    <div class="card-doodle-sparkle">★</div>
+                    <div class="card-icon-bubble bubble-blue">
+                        <i class="ph-bold ph-users-three"></i>
+                    </div>
+                    <span class="card-tag tag-blue">Social & Empathy</span>
+                    <h3>Growing Together</h3>
+                    <p>Developing social empathy, sharing laughter, teamwork games, and building healthy friendships that last.</p>
+                    <div class="card-footer-pill">
+                        <span>🤝 Team Sharing</span>
+                        <span>🎈 Play Groups</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Authentic Preschool Campus Banner Feature -->
+            <div class="campus-highlight-card reveal">
+                <div class="campus-grid">
+                    <div class="campus-image-wrap">
+                        <img src="public/assets/banner_image.jpg" alt="Colorful welcoming campus facade of Roots International Preschool & Day Care">
+                        <span class="campus-badge">📍 Sunshine Campus</span>
+                    </div>
+                    <div class="campus-text">
+                        <span class="campus-kicker">Welcome to Our Happy Home</span>
+                        <h3>A Vibrant Sanctuary Built Especially for Children</h3>
+                        <p>Our secure, child-scaled facility features soft play areas, outdoor exploration zones, and bright, sunlit classrooms equipped with authentic Montessori learning materials.</p>
+                        <div class="campus-perks">
+                            <span><i class="ph-bold ph-shield-check"></i> 100% Child-Proof & Secure</span>
+                            <span><i class="ph-bold ph-bus"></i> GPS School Transport</span>
+                            <span><i class="ph-bold ph-sparkle"></i> Daily Sanitized Spaces</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Wave divider into about section -->
+        <div class="section-wave-divider wave-white-to-cream" aria-hidden="true">
+            <svg viewBox="0 0 1440 60" fill="none" preserveAspectRatio="none">
+                <path d="M0,20 C360,55 720,0 1080,45 C1260,65 1380,30 1440,20 L1440,60 L0,60 Z" fill="#fcf5ea"/>
+            </svg>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         ABOUT
+         ═══════════════════════════════════════════ -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+        <div class="container">
+            <div class="about-grid">
+
+                <!-- Image composition with storybook sticker styling -->
+                <div class="about-images reveal">
+                    <div class="about-frame-bg" aria-hidden="true"></div>
+                    <img src="public/assets/assets2.jpg" alt="Smiling preschooler interacting with Montessori activity materials" class="about-img-main">
+                    <!-- <div class="about-sub-wrap">
+                        <img src="public/assets/assets4.webp" alt="Little girl learning math with colorful wooden abacus beads" class="about-img-sub">
+                        <div class="about-photo-sticker">
+                            <span>⭐ Hands-On Wonder</span>
+                        </div>
+                    </div> -->
+
+                    <!-- Decorative hand-drawn leaves -->
+                    <div class="about-doodle-leaf" aria-hidden="true">
+                        <svg viewBox="0 0 60 60" fill="none">
+                            <path d="M10 50 C20 30 35 15 55 10 C45 25 35 45 10 50 Z" fill="#b9d6b2"/>
+                            <path d="M10 50 Q35 30 55 10" stroke="#004b47" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Text with friendly storytelling tone -->
+                <div class="about-text reveal">
+                    <span class="section-eyebrow">
+                        <span class="eyebrow-pill"><span>🌼</span> Our Philosophy</span>
+                    </span>
+                    <h2 id="about-heading" class="section-title">
+                        A Montessori Sanctuary <br>
+                        <span class="hl-teal">For Your Little One</span>
+                    </h2>
+                    <p class="section-desc">
+                        We believe that learning should feel as joyful and natural as breathing. Our classrooms are carefully prepared spaces filled with hand-crafted natural materials, warm encouragement, and freedom within gentle boundaries.
+                    </p>
+
+                    <div class="about-checks">
+                        <div class="about-check check-sage">
+                            <span class="about-check-icon"><i class="ph-bold ph-check"></i></span>
+                            <div>
+                                <strong>Child-Centered Curriculum</strong>
+                                <small>Following each child’s unique pace and curiosity</small>
+                            </div>
+                        </div>
+                        <div class="about-check check-yellow">
+                            <span class="about-check-icon"><i class="ph-bold ph-check"></i></span>
+                            <div>
+                                <strong>Nature-Inspired Learning Spaces</strong>
+                                <small>Organic wooden toys, plants, and natural light</small>
+                            </div>
+                        </div>
+                        <div class="about-check check-coral">
+                            <span class="about-check-icon"><i class="ph-bold ph-check"></i></span>
+                            <div>
+                                <strong>Emotional &amp; Social Flourishing</strong>
+                                <small>Kindness, patience, self-expression, and empathy</small>
+                            </div>
+                        </div>
+                        <div class="about-check check-blue">
+                            <span class="about-check-icon"><i class="ph-bold ph-check"></i></span>
+                            <div>
+                                <strong>Small, Intimate Class Sizes</strong>
+                                <small>Max 15–20 children for loving individualized attention</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#programs" class="btn btn-primary">
+                        Explore Our Programs <i class="ph-bold ph-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         STATS / STORYBOOK MILESTONE RIBBON
+         ═══════════════════════════════════════════ -->
+    <section class="stats" aria-label="School statistics">
+        <div class="container">
+            <div class="stats-grid reveal-stagger">
+                <div class="stat-item reveal">
+                    <div class="stat-badge-icon">👩‍🏫</div>
+                    <span class="stat-num">45</span>
+                    <span class="stat-label">Qualified Teachers</span>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-badge-icon">🌻</div>
+                    <span class="stat-num">12+</span>
+                    <span class="stat-label">Years of Experience</span>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-badge-icon">🎈</div>
+                    <span class="stat-num">500+</span>
+                    <span class="stat-label">Students Enrolled</span>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-badge-icon">🎨</div>
+                    <span class="stat-num">15</span>
+                    <span class="stat-label">Creative Programs</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         PROGRAMS / CLASSES
+         ═══════════════════════════════════════════ -->
+    <section class="classes" id="programs" aria-labelledby="programs-heading">
+        <div class="container">
+            <div class="classes-header text-center reveal">
+                <span class="section-eyebrow">
+                    <span class="eyebrow-pill"><span>📚</span> Learning Adventures</span>
+                </span>
+                <h2 id="programs-heading" class="section-title">
+                    Something Wonderful for <br>
+                    <span class="hl-coral">Every Little Learner</span>
+                </h2>
+                <p class="section-desc">
+                    Thoughtfully designed learning journeys supporting your child's developmental milestones with delight and discovery.
+                </p>
+            </div>
+
+            <div class="classes-grid reveal-stagger">
+
+                <!-- Program 1: Art & Colors (Coral theme) -->
+                <article class="class-card theme-coral reveal">
+                    <div class="class-card-img-wrap">
+                        <img src="public/assets/assets3.jpg" alt="Child exploring alphabet and shapes in Art &amp; Colors class">
+                        <span class="class-badge badge-coral">Age: 2–4 Years</span>
+                        <div class="class-card-corner-shape"></div>
+                    </div>
+                    <div class="class-card-body">
+                        <div class="class-theme-tag">🎨 Creative Sensory</div>
+                        <h3>Art &amp; Colors</h3>
+                        <p>Exploring tactile textures, vibrant finger paints, clay modeling, and joyful self-expression.</p>
+                        <div class="class-meta">
+                            <span><i class="ph-duotone ph-clock"></i> 9:00 AM</span>
+                            <span><i class="ph-duotone ph-users"></i> Max 15 Children</span>
+                        </div>
+                        <a href="#enrol" class="class-link">
+                            Enquire Now <span class="link-circle-arrow"><i class="ph-bold ph-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Program 2: Early Literacy (Powder Blue theme) -->
+                <article class="class-card theme-blue reveal">
+                    <div class="class-card-img-wrap">
+                        <img src="public/assets/assets4.webp" alt="Child counting with coloured abacus beads in Early Literacy class">
+                        <span class="class-badge badge-blue">Age: 4–6 Years</span>
+                        <div class="class-card-corner-shape"></div>
+                    </div>
+                    <div class="class-card-body">
+                        <div class="class-theme-tag">📖 Story & Phonics</div>
+                        <h3>Early Literacy</h3>
+                        <p>Storytelling adventures, playful phonics, interactive picture books, and rhymes that spark reading passion.</p>
+                        <div class="class-meta">
+                            <span><i class="ph-duotone ph-clock"></i> 10:30 AM</span>
+                            <span><i class="ph-duotone ph-users"></i> Max 20 Children</span>
+                        </div>
+                        <a href="#enrol" class="class-link">
+                            Enquire Now <span class="link-circle-arrow"><i class="ph-bold ph-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Program 3: Music & Rhythm (Butter Yellow theme with authentic photography) -->
+                <article class="class-card theme-yellow reveal">
+                    <div class="class-card-img-wrap">
+                        <img src="public/assets/assets2.webp" alt="Child smiling and exploring tactile learning elements in Music &amp; Rhythm class">
+                        <span class="class-badge badge-yellow">Age: 3–5 Years</span>
+                        <div class="class-card-corner-shape"></div>
+                    </div>
+                    <div class="class-card-body">
+                        <div class="class-theme-tag">🎵 Sound & Movement</div>
+                        <h3>Music &amp; Rhythm</h3>
+                        <p>Discovering infectious beats, body movement, percussion instruments, and the creative wonder of sound.</p>
+                        <div class="class-meta">
+                            <span><i class="ph-duotone ph-clock"></i> 1:00 PM</span>
+                            <span><i class="ph-duotone ph-users"></i> Max 18 Children</span>
+                        </div>
+                        <a href="#enrol" class="class-link">
+                            Enquire Now <span class="link-circle-arrow"><i class="ph-bold ph-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+        <!-- Wave divider into faculty section -->
+        <div class="section-wave-divider wave-cream-to-white" aria-hidden="true">
+            <svg viewBox="0 0 1440 60" fill="none" preserveAspectRatio="none">
+                <path d="M0,35 C300,10 600,50 900,15 C1200,45 1350,25 1440,35 L1440,60 L0,60 Z" fill="#ffffff"/>
+            </svg>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         FACULTY / STAFF
+         ═══════════════════════════════════════════ -->
+    <section class="staff" id="staff" aria-labelledby="staff-heading">
+        <div class="container">
+            <div class="staff-header text-center reveal">
+                <span class="section-eyebrow">
+                    <span class="eyebrow-pill"><span>💛</span> Our Caring Educators</span>
+                </span>
+                <h2 id="staff-heading" class="section-title">
+                    The Lovely People Who <br>
+                    <span class="hl-teal">Help Little Dreams Grow</span>
+                </h2>
+                <p class="section-desc">
+                    Passionate, certified, and endlessly patient — the loving hearts guiding each child at Roots International.
+                </p>
+            </div>
+
+            <div class="staff-grid reveal-stagger">
+
+                <!-- Staff 1: Amelia Carter (Coral Halo) -->
+                <div class="staff-card halo-coral reveal">
+                    <div class="staff-photo-container">
+                        <div class="staff-halo-ring"></div>
+                        <img class="staff-photo" src="https://randomuser.me/api/portraits/women/65.jpg" alt="Portrait of Amelia Carter, Lead Montessori Guide">
+                        <span class="staff-pin-emoji">⭐</span>
+                    </div>
+                    <h3 class="staff-name">Amelia Carter</h3>
+                    <span class="staff-role">Lead Montessori Guide</span>
+                    <p class="staff-bio">12 years nurturing curious minds through hands-on, child-led learning experiences.</p>
+                    <div class="staff-socials">
+                        <a href="#" aria-label="Amelia Carter on Facebook"><i class="ph-fill ph-facebook-logo"></i></a>
+                        <a href="#" aria-label="Amelia Carter on Instagram"><i class="ph-fill ph-instagram-logo"></i></a>
+                        <a href="#" aria-label="Amelia Carter on LinkedIn"><i class="ph-fill ph-linkedin-logo"></i></a>
+                    </div>
+                </div>
+
+                <!-- Staff 2: Daniel Ortiz (Yellow Halo) -->
+                <div class="staff-card halo-yellow reveal">
+                    <div class="staff-photo-container">
+                        <div class="staff-halo-ring"></div>
+                        <img class="staff-photo" src="https://randomuser.me/api/portraits/men/52.jpg" alt="Portrait of Daniel Ortiz, Music &amp; Movement Coach">
+                        <span class="staff-pin-emoji">🎵</span>
+                    </div>
+                    <h3 class="staff-name">Daniel Ortiz</h3>
+                    <span class="staff-role">Music &amp; Movement Coach</span>
+                    <p class="staff-bio">Believes every child finds their rhythm and confidence through play, song, and dance.</p>
+                    <div class="staff-socials">
+                        <a href="#" aria-label="Daniel Ortiz on Facebook"><i class="ph-fill ph-facebook-logo"></i></a>
+                        <a href="#" aria-label="Daniel Ortiz on Instagram"><i class="ph-fill ph-instagram-logo"></i></a>
+                        <a href="#" aria-label="Daniel Ortiz on LinkedIn"><i class="ph-fill ph-linkedin-logo"></i></a>
+                    </div>
+                </div>
+
+                <!-- Staff 3: Priya Nair (Sage Halo) -->
+                <div class="staff-card halo-sage reveal">
+                    <div class="staff-photo-container">
+                        <div class="staff-halo-ring"></div>
+                        <img class="staff-photo" src="https://randomuser.me/api/portraits/women/21.jpg" alt="Portrait of Priya Nair, Early Literacy Specialist">
+                        <span class="staff-pin-emoji">📚</span>
+                    </div>
+                    <h3 class="staff-name">Priya Nair</h3>
+                    <span class="staff-role">Early Literacy Specialist</span>
+                    <p class="staff-bio">Turns storytime into an enchanting adventure that sparks a lifelong joy of reading.</p>
+                    <div class="staff-socials">
+                        <a href="#" aria-label="Priya Nair on Facebook"><i class="ph-fill ph-facebook-logo"></i></a>
+                        <a href="#" aria-label="Priya Nair on Instagram"><i class="ph-fill ph-instagram-logo"></i></a>
+                        <a href="#" aria-label="Priya Nair on LinkedIn"><i class="ph-fill ph-linkedin-logo"></i></a>
+                    </div>
+                </div>
+
+                <!-- Staff 4: Marcus Webb (Blue Halo) -->
+                <div class="staff-card halo-blue reveal">
+                    <div class="staff-photo-container">
+                        <div class="staff-halo-ring"></div>
+                        <img class="staff-photo" src="https://randomuser.me/api/portraits/men/45.jpg" alt="Portrait of Marcus Webb, Sports &amp; Wellness Lead">
+                        <span class="staff-pin-emoji">⚽</span>
+                    </div>
+                    <h3 class="staff-name">Marcus Webb</h3>
+                    <span class="staff-role">Sports &amp; Wellness Lead</span>
+                    <p class="staff-bio">Keeps little bodies energized, healthy, and smiling with active, age-appropriate fun.</p>
+                    <div class="staff-socials">
+                        <a href="#" aria-label="Marcus Webb on Facebook"><i class="ph-fill ph-facebook-logo"></i></a>
+                        <a href="#" aria-label="Marcus Webb on Instagram"><i class="ph-fill ph-instagram-logo"></i></a>
+                        <a href="#" aria-label="Marcus Webb on LinkedIn"><i class="ph-fill ph-linkedin-logo"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Wave divider into gallery section -->
+        <div class="section-wave-divider wave-white-to-cream" aria-hidden="true">
+            <svg viewBox="0 0 1440 60" fill="none" preserveAspectRatio="none">
+                <path d="M0,25 C350,60 700,5 1050,40 C1250,55 1370,30 1440,25 L1440,60 L0,60 Z" fill="#fcf5ea"/>
+            </svg>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         GALLERY
+         ═══════════════════════════════════════════ -->
+    <section class="gallery-section" id="gallery" aria-labelledby="gallery-heading">
+        <div class="container">
+            <div class="gallery-header text-center reveal">
+                <span class="section-eyebrow">
+                    <span class="eyebrow-pill"><span>📸</span> Our Gallery</span>
+                </span>
+                <h2 id="gallery-heading" class="section-title">
+                    Moments that <span class="hl-coral">matter</span>
+                </h2>
+                <p class="section-desc">
+                    Every smile, every painting, every discovery — captured with love.
+                </p>
+            </div>
+
+            <!-- Masonry-style gallery grid -->
+            <div class="gallery-grid reveal-stagger" id="galleryGrid" role="list" aria-label="School photo gallery">
+
+                <div class="gallery-item reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0007.jpg" src="" alt="Students during school activity" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0007.jpg" data-caption="Students during school activity">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0011.jpg" src="" alt="Cultural celebration at school" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0011.jpg" data-caption="Cultural celebration at school">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0014.jpg" src="" alt="Children enjoying outdoor activities" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0014.jpg" data-caption="Children enjoying outdoor activities">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-item--tall reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0017.jpg" src="" alt="School event performance" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0017.jpg" data-caption="School event performance">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0023.jpg" src="" alt="Creative learning workshop" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0023.jpg" data-caption="Creative learning workshop">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-item--wide reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0026.jpg" src="" alt="Sports Day" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0026.jpg" data-caption="Sports Day">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-item--tall reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0031.jpg" src="" alt="Prize distribution" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0031.jpg" data-caption="Prize distribution">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-item--tall reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0034.jpg" src="" alt="DayCare" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0034.jpg" data-caption="DayCare">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0035.jpg" src="" alt="Welcome ceremony at school" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0035.jpg" data-caption="Welcome ceremony at school">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0044.jpg" src="" alt="Group activity with students" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0044.jpg" data-caption="Group activity with students">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-item--wide reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0052.jpg" src="" alt="Udaan event performance" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0052.jpg" data-caption="Udaan event performance">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0053.jpg" src="" alt="Children's group photo" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0053.jpg" data-caption="Children's group photo">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0072.jpg" src="" alt="Christmas celebration" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0072.jpg" data-caption="Christmas celebration">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0073.jpg" src="" alt="Sports day activities" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0073.jpg" data-caption="Sports day activities">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-item--tall reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0080.jpg" src="" alt="Outdoor campus activities" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0080.jpg" data-caption="Outdoor campus activities">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0082.jpg" src="" alt="Special school event" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0082.jpg" data-caption="Special school event">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0027.jpg" src="" alt="Children's sports activity" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0027.jpg" data-caption="Children's sports activity">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal" role="listitem">
+                    <div class="gallery-img-wrap">
+                        <img data-src="public/gallery/IMG-20261029-WA0021.jpg" src="" alt="Prize distribution ceremony" class="gallery-img lazy-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <button class="gallery-zoom-btn" aria-label="View full image" data-img="public/gallery/IMG-20261029-WA0021.jpg" data-caption="Prize distribution ceremony">
+                                <i class="ph-bold ph-magnifying-glass-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.gallery-grid -->
+        </div><!-- /.container -->
+
+        <!-- Lightbox overlay -->
+        <div class="gallery-lightbox" id="galleryLightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" hidden>
+            <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">
+                <i class="ph-bold ph-x"></i>
+            </button>
+            <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">
+                <i class="ph-bold ph-caret-left"></i>
+            </button>
+            <div class="lightbox-inner">
+                <img src="" alt="" id="lightboxImg" class="lightbox-img">
+                <p class="lightbox-caption" id="lightboxCaption"></p>
+            </div>
+            <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">
+                <i class="ph-bold ph-caret-right"></i>
+            </button>
+        </div>
+
+        <!-- Wave divider into testimonials section -->
+        <div class="section-wave-divider wave-cream-to-white" aria-hidden="true">
+            <svg viewBox="0 0 1440 60" fill="none" preserveAspectRatio="none">
+                <path d="M0,20 C360,55 720,0 1080,45 C1260,65 1380,30 1440,20 L1440,60 L0,60 Z" fill="#ffffff"/>
+            </svg>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         TESTIMONIALS
+         ═══════════════════════════════════════════ -->
+    <section class="testimonials" id="testimonials" aria-labelledby="testimonials-heading">
+        <div class="container">
+            <div class="testimonials-header text-center reveal">
+                <span class="section-eyebrow">
+                    <span class="eyebrow-pill"><span>💬</span> Warm Words</span>
+                </span>
+                <h2 id="testimonials-heading" class="section-title">
+                    Little Smiles, <br>
+                    <span class="hl-coral">Big Happy Stories</span>
+                </h2>
+                <p class="section-desc">
+                    Real, heartfelt reviews from parents who watched their children blossom with confidence and happiness.
+                </p>
+            </div>
+
+            <div class="testimonial-grid reveal-stagger">
+
+                <!-- Story 1: Coral theme -->
+                <div class="testimonial-card card-quote-coral reveal">
+                    <div class="testimonial-quote-icon">❝</div>
+                    <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Roots International feels like a second home for my daughter. The teachers genuinely care, and I've watched her confidence bloom in just one term."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Jenkins">
+                        <div>
+                            <h4>Sarah Jenkins</h4>
+                            <span>Parent of Liam, Age 4</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Story 2: Yellow theme -->
+                <div class="testimonial-card card-quote-yellow reveal">
+                    <div class="testimonial-quote-icon">❝</div>
+                    <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "The nature-inspired classrooms and hands-on activities are unlike anything we've seen. Our son actually asks to go to school on weekends!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="David Kim">
+                        <div>
+                            <h4>David Kim</h4>
+                            <span>Parent of Noah, Age 5</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Story 3: Blue theme -->
+                <div class="testimonial-card card-quote-blue reveal">
+                    <div class="testimonial-quote-icon">❝</div>
+                    <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "From the warm enrollment process to the daily updates, everything about Roots feels thoughtful. Truly a nurturing community for young learners."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily Rossi">
+                        <div>
+                            <h4>Emily Rossi</h4>
+                            <span>Parent of Mia, Age 3</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         ENROLLMENT / CONTACT
+         ═══════════════════════════════════════════ -->
+    <section class="enrol" id="enrol" aria-labelledby="enrol-heading">
+        <div class="container">
+            <div class="enrol-grid">
+
+                <!-- Left: Welcoming storybook context -->
+                <div class="enrol-text reveal">
+                    <span class="section-eyebrow">
+                        <span class="eyebrow-pill"><span>🎒</span> Welcome to Roots</span>
+                    </span>
+                    <h2 id="enrol-heading" class="section-title">
+                        Ready for a <br>
+                        <span class="hl-coral">Little Adventure?</span>
+                    </h2>
+                    <p class="section-desc">
+                        We would love to welcome you and your child into our preschool family. Schedule a friendly guided tour to explore our classrooms and meet our loving educators.
+                    </p>
+
+                    <!-- Friendly info cards -->
+                    <!-- <div class="enrol-tour-perks">
+                        <div class="tour-perk">
+                            <span class="perk-icon">🏡</span>
+                            <div>
+                                <strong>Guided Classroom Tour</strong>
+                                <small>Experience our child-scaled Montessori environments</small>
+                            </div>
+                        </div>
+                        <div class="tour-perk">
+                            <span class="perk-icon">🧸</span>
+                            <div>
+                                <strong>Complimentary Play Session</strong>
+                                <small>Let your child explore our sensory materials freely</small>
+                            </div>
+                        </div>
+                        <div class="tour-perk">
+                            <span class="perk-icon">☕</span>
+                            <div>
+                                <strong>Warm Parent Q&amp;A</strong>
+                                <small>Discuss routines, dietary options, and milestones</small>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="enrol-contact-list">
+                        <div class="enrol-contact-item">
+                            <span class="enrol-contact-icon" aria-hidden="true"><i class="ph-bold ph-map-pin"></i></span>
+                            <div>Roots International PreSchool and DayCare, Shop 1, 2 &amp; 3,<br>Shanti Gardens Rd, New Mhada Colony, Sector 2,<br>Srishti Complex, Mira Road East,<br>Mira Bhayandar, Maharashtra 401107</div>
+                        </div>
+                        <div class="enrol-contact-item">
+                            <span class="enrol-contact-icon" aria-hidden="true"><i class="ph-bold ph-phone"></i></span>
+                            <div><a href="tel:+919529674325">+91 9529674325</a></div>
+                        </div>
+                        <div class="enrol-contact-item">
+                            <span class="enrol-contact-icon" aria-hidden="true"><i class="ph-bold ph-envelope"></i></span>
+                            <div><a href="mailto:info@rootsinternational.edu">info@rootsinternational.edu</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Google Maps embed -->
+                <div class="map-wrap reveal">
+                    <div class="form-header-badge">
+                        <span>📍 Find Us Here</span>
+                    </div>
+                    <h3>Come Visit Us!</h3>
+                    <p>We're nestled in the heart of Mira Road East. Pop in for a tour — we'd love to meet you and your little one!</p>
+                    <div class="map-embed-frame">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30129.972525138328!2d72.8338544743164!3d19.2716409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1c39deb3cc9%3A0xad66eae097af3d6d!2sRoots%20International%20PreSchool%20and%20DayCare%7CBest%20Preschool%7CSafest%20Daycare!5e0!3m2!1sen!2sin!4v1792499488601!5m2!1sen!2sin"
+                            width="100%"
+                            height="340"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            title="Roots International PreSchool and DayCare on Google Maps">
+                        </iframe>
+                    </div>
+                    <div class="map-footer-info">
+                        <span><i class="ph-bold ph-map-pin"></i> Shop 1, 2 &amp; 3, Srishti Complex, Mira Road East, MH 401107</span>
+                        <a href="https://maps.google.com/?q=Roots+International+PreSchool+and+DayCare+Mira+Road+East" target="_blank" rel="noopener noreferrer" class="map-directions-btn">
+                            <i class="ph-bold ph-navigation-arrow"></i> Get Directions
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         FOOTER — Forest Teal with Warm Cream Typography & Playful Doodles
+         ═══════════════════════════════════════════ -->
+    <footer class="site-footer" role="contentinfo">
+
+        <!-- Scalloped wave top divider -->
+        <div class="footer-wave-top" aria-hidden="true">
+            <svg viewBox="0 0 1440 48" fill="none" preserveAspectRatio="none">
+                <path d="M0,24 C180,48 360,0 540,24 C720,48 900,0 1080,24 C1260,48 1350,12 1440,24 L1440,48 L0,48 Z" fill="#004b47"/>
+            </svg>
+        </div>
+
+        <div class="container footer-content-wrap">
+
+            <!-- Decorative background stars / leaves -->
+            <div class="footer-doodles" aria-hidden="true">
+                <span class="footer-star f-star-1">★</span>
+                <span class="footer-star f-star-2">✦</span>
+                <span class="footer-star f-star-3">★</span>
+                <span class="footer-leaf f-leaf-1">🌿</span>
+            </div>
+
+            <div class="footer-grid">
+
+                <!-- Brand -->
+                <div class="footer-brand footer-col">
+                    <div class="footer-logo-wrap">
+                        <img src="public/assets/logo.png" alt="Roots International Preschool" height="56">
+                    </div>
+                    <p>Nurturing curious little minds with patient love, joyful play, and nature-inspired Montessori adventures that last a lifetime.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Roots International on Facebook"><i class="ph-fill ph-facebook-logo"></i></a>
+                        <a href="#" aria-label="Roots International on Instagram"><i class="ph-fill ph-instagram-logo"></i></a>
+                        <a href="#" aria-label="Roots International on Twitter/X"><i class="ph-fill ph-twitter-logo"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About Our Sanctuary</a>
+                        <a href="#services">Why Choose Roots</a>
+                        <a href="#programs">Playful Programs</a>
+                        <a href="#staff">Loving Educators</a>
+                        <a href="#enrol">Book a Visit</a>
+                    </div>
+                </div>
+
+                <!-- Programs -->
+                <div class="footer-col">
+                    <h4>Our Programs</h4>
+                    <div class="footer-links">
+                        <a href="#programs">Play Group (2–3 Yrs)</a>
+                        <a href="#programs">Art &amp; Sensory Lab</a>
+                        <a href="#programs">Early Literacy</a>
+                        <a href="#programs">Music &amp; Movement</a>
+                        <a href="#programs">After School Day Care</a>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-col">
+                    <h4>Get in Touch</h4>
+                    <div class="footer-contact-item">
+                        <i class="ph-bold ph-map-pin" aria-hidden="true"></i>
+                        <span>Shop 1, 2 &amp; 3, Shanti Gardens Rd,<br>Srishti Complex, Mira Road East,<br>Mira Bhayandar, MH 401107</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="ph-bold ph-phone" aria-hidden="true"></i>
+                        <span><a href="tel:+919529674325" style="color:inherit">+91 9529674325</a></span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="ph-bold ph-envelope" aria-hidden="true"></i>
+                        <span><a href="mailto:info@rootsinternational.edu" style="color:inherit">info@rootsinternational.edu</a></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Roots International Pre-School &amp; Day Care. Crafted with love for little dreams everywhere.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ═══════════════════════════════════════════
+         SCRIPTS
+         ═══════════════════════════════════════════ -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
