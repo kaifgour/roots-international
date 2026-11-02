@@ -2499,6 +2499,82 @@ p {
   .lightbox-next { right: 0.5rem; }
 }
 
+/* ─── Small phones: 360–400px hero fix ─────────────────────────────────── */
+@media (max-width: 400px) {
+  /* Tighten page edges so nothing escapes the screen */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Hero section: reduce vertical breathing room */
+  .hero {
+    padding-top: clamp(6rem, 18vw, 7.5rem);
+    padding-bottom: 3rem;
+  }
+
+  /* Shrink headline so it wraps cleanly */
+  h1 {
+    font-size: clamp(1.85rem, 9vw, 2.4rem);
+    line-height: 1.18;
+  }
+
+  /* Smaller body copy in hero */
+  .hero-desc {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Eyebrow pill: reduce padding & font */
+  .eyebrow-pill {
+    font-size: 0.78rem;
+    padding: 0.28rem 0.8rem;
+  }
+
+  /* Stack buttons, both full-width */
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.65rem;
+    margin-bottom: 2rem;
+  }
+  .hero-actions .btn {
+    width: 100%;
+    justify-content: center;
+    font-size: 0.92rem;
+    padding: 0.78rem 1rem;
+  }
+
+  /* Trust stickers: tighter padding, smaller text */
+  .hero-trust {
+    gap: 0.55rem;
+    padding-top: 1.2rem;
+  }
+  .hero-trust-sticker {
+    padding: 0.42rem 0.75rem;
+    gap: 0.4rem;
+  }
+  .sticker-num {
+    font-size: 1.1rem;
+  }
+  .sticker-label {
+    font-size: 0.7rem;
+  }
+
+  /* Hide floating badges that poke outside narrow screens */
+  .floating-badge {
+    display: none;
+  }
+
+  /* Shrink the photo frame to fit */
+  .hero-art-frame {
+    max-width: 260px;
+  }
+  .hero-main-photo {
+    height: 260px;
+  }
+}
+
 /* Reduced Motion Preferences */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
